@@ -1,1 +1,1 @@
-A repo for vitest / jest demo.
+Jest + Vitest demo repo.

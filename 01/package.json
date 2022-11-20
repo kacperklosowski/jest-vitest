@@ -1,0 +1,28 @@
+{
+  "name": "jest-vitest",
+  "version": "1.0.0",
+  "description": "Jest + Vitest demo repo.",
+  "main": "index.js",
+  "scripts": {
+    "test:vitest": "vitest test.js",
+    "test:jest": "jest spec.js",
+
+    "test:vitest-verbose": "vitest test.js --reporter verbose",
+    "test:jest-watch": "jest spec.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacperklosowski/jest-vitest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kacperklosowski/jest-vitest/issues"
+  },
+  "homepage": "https://github.com/kacperklosowski/jest-vitest#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "vitest": "^0.25.2"
+  }
+}

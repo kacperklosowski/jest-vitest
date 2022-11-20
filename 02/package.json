@@ -1,0 +1,21 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "test:fe": "vitest fe",
+    "test:be": "vitest be"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.25.2",
+    "@vitest/ui": "^0.25.2",
+    "vitest": "^0.25.2"
+  }
+}
