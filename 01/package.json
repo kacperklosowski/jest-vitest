@@ -8,7 +8,9 @@
     "test:jest": "jest spec.js",
 
     "test:vitest-verbose": "vitest test.js --reporter verbose",
-    "test:jest-watch": "jest spec.js --watch"
+    "test:jest-watch": "jest spec.js --watch",
+
+    "jest:clear": "jest --clearCache"
   },
   "repository": {
     "type": "git",
